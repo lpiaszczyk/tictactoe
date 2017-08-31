@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type = "text/javascript" src = "script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id = "configureGame">
+	<form>
+		How big board should be generated?
+		<input type="number" name="size" min="3" max="10">
+		<div id = "start" class = "button">Start game!</div>
+		<div id = "valError">Please, set board size!</div>
+	</form>
+</div>
+<div id = "board"></div>
+<div id = "winnerAnnouncment">
+	<div id = "winner"></div>
+	<div id = "restart" class = "button">Restart game</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+td {
+	width: 50px;
+	height: 50px;
+	border-style: groove;
+	border-width: 2px;
+	border-color: red;
+	text-align: center;
+	position: relative;
+}
+
+img.filledField {
+	margin: auto;
+	position: absolute;
+	top: 15%;
+	right: 15%;
+	width: 70%;
+	height: 70%;
+}
+
+#configureGame {
+	margin: auto;
+}
+
+#board {
+	display: none;
+	width: 600px;
+	height: 600px;
+	margin: auto;
+}
+
+#valError {
+		display: none;
+}
+
+.button {
+	border-style: groove;
+	border-radius: 20px;
+	text-align: center;
+	width: 10em;
+}
+
+table {
+	margin: auto;
+	table-layout: fixed;
+	width:100%;
+	height: 100%;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	margin: 10%;
+	min-width: 610px;
+	min-height: 610px;
+	padding: 10px;
+	border-style: groove;
+	border-radius: 20px;
+	
+}
+
+#winnerAnnouncment {
+	display: none;
+}
+
+html {
+	
+}
+
